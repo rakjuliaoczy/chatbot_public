@@ -1,0 +1,6 @@
+chainlit
+pandas
+fastapi
+sentence-transformers
+pandas
+word2number

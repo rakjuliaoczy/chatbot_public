@@ -1,23 +1,17 @@
 import random
 import chainlit as cl
-import asyncio
-import pandas as pd
-from gensim.models import Word2Vec
-import gensim
-from nltk.tokenize import sent_tokenize, word_tokenize
+# import asyncio
 import warnings
 warnings.filterwarnings(action='ignore')
-import numpy as np
 from chainlit.context import init_http_context
-from sklearn.metrics.pairwise import cosine_similarity
 from fastapi import Request
 from fastapi.responses import HTMLResponse
 from chainlit.server import app
-from chainlit.context import init_ws_context
-from chainlit.session import WebsocketSession
+# from chainlit.context import init_ws_context
+# from chainlit.session import WebsocketSession
 from fastapi import FastAPI
-import requests
-from pydantic import BaseModel
+# import requests
+# from pydantic import BaseModel
 import vector_similarities
 
 app = FastAPI()
@@ -173,13 +167,13 @@ async def main(message):#, session_id: str):
             # If not, proceed with the regular response
             response = bot.get_response(user_input)
 
-    if len(user_inputs) == 5:
-        print(user_inputs)
-        user_options = vector_similarities.all_options(user_inputs)
-        print(user_options)
-
-    await asyncio.sleep(1.3)
+    # await asyncio.sleep(1.3)
     await cl.Message(content=response).send()
+
+    if len(user_inputs) == 5:
+        #print(user_inputs)
+        user_options = vector_similarities.all_options(user_inputs)
+        #print(user_options)
 
 
 

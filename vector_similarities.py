@@ -1,7 +1,6 @@
-import chatbot
+#import chatbot
 from sentence_transformers import SentenceTransformer, util
 import pandas as pd
-from deep_translator import GoogleTranslator
 import logging
 logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
 from word2number import w2n
