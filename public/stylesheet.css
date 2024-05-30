@@ -1,0 +1,97 @@
+.MuiBox-root.css-144sd5e {
+    /* Your custom styles here */
+    border: 1px solid #ddd;
+    height: -webkit-fill-available;
+    width: 26vw;
+    border-radius: 5px;
+}
+
+.css-144sd5e {
+    position: fixed;       /* Position the element relative to the viewport */
+    margin-left: 71vw;
+    margin-top: 14vw;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Optional: Add a subtle shadow */
+    z-index: 1000;         /* Ensure it is above other elements */
+}
+
+.css-qsb7md {
+    background-color: rgba(44, 43, 40, 0.192) !important;
+    min-height: 40px !important;
+}
+
+
+a[href*='https://github.com/Chainlit/chainlit'] {
+    visibility: hidden;
+}
+
+.css-1ruedog {
+    display: none !important;
+}
+
+.css-1mzerio{
+    display: none !important;
+}
+
+.css-1l740qp {
+    display: none !important;
+}
+
+.css-1o61xx {
+    display: none !important;
+}
+
+#upload-button{
+    display: none !important;
+}
+
+button[aria-label="Show history"] {
+    display: none;
+  }
+
+.css-1tudgoq {
+    display: none !important;
+}
+
+.css-10oer18 {
+    padding-left: 2vw !important;
+}
+
+button[aria-label="Copy"] {
+    display: none;
+  }
+
+.css-1ecxs1h{
+    background-color: rgb(79 67 72) !important;
+}
+
+.circle {
+    display: none !important;
+}
+
+.MuiStack-root .css-12hxhao{
+    background-color: transparent !important;
+}
+
+/* img[alt="logo"] {
+    color: transparent !important;
+    background-color: transparent !important;
+    background: none !important;
+    max-height: 35px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  } */
+/* .css-12hxhao{
+    display: none !important;
+} */
+
+img[alt="logo"] {
+    display: none !important;
+}
+
+#account-menu{
+    display: none;
+}
+
+button[type="button"] {
+    display: none;
+  }
